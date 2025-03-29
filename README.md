@@ -28,6 +28,6 @@ Similar to Triple Tap, fourth times refunds two rounds to the magazine for every
 
 This is where it becomes somewhat of a pain to figure out how many bullets will end up in your magazine. When you have a weapon with both perks on it, the number of shots goes up rapidly. With a magazine of 4, you get 11 shots, and with a magazine of 10 you get 47 shots. It becomes apparent that counting out the shots gets out of hand quickly. Hence the creation of this calculator
 
-### Overengineered
+### Why this approach?
 
 There are a number of ways to solve this problem. The easiest is probably through math. Once again, I'll go more in to depth on that on my website. Here, I've opted for a more flexible solution. This simulates the process of actually firing the weapon. The reason I opted for this is to allow for the potential for this to account for other perks or weapon simulation. It also allows for the potential to measure things other than ammo when it comes to weapons. For instance, in the future I could allow for the program to figure out exactly how many shots from a weapon are possible during a DPS phase of a boss. Essentially, this is overengineered to leave the possibilities open.
